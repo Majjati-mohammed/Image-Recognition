@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Image Recognition App</title>
+    <link rel="icon" type="image" href="images/ai-model.png">
+    <script src="https://unpkg.com/ml5@1.2.1/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="upload">
+        <h1>Web Image Classifier with MobileNet</h1><br>
+  <input type="file" id="file" class="file-input"   accept="image/*">
+  <label for="file" class="btn-upload">Choisir un fichier</label>
+</div>
+    <img id="image" src="images/image.png" alt="Image">
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+</html>
